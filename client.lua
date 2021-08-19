@@ -5,7 +5,7 @@ RegisterNetEvent("ragdoll:resetWalk")
 
 local function IsUsingKeyboard(padIndex)
 	return Citizen.InvokeNative(0xA571D46727E2B718, padIndex)
-nd
+end
 
 local function knockOut(ped)
 	if not CanPedRagdoll(PlayerPedId()) then
